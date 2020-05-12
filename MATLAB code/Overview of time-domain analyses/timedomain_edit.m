@@ -1,5 +1,5 @@
-introduction to time-domain analyses
-mikeXcohen@gmail.com
+% introduction to time-domain analyses
+% mikeXcohen@gmail.com
 % load EEG data
 load sampleEEGdata.mat
 
@@ -36,7 +36,7 @@ for i=1:num_trials2plot
     title([ 'Trial ' num2str(random_trial_to_plot) ])
 end
 
-All trials and trial average (ERP)
+% All trials and trial average (ERP)
 figure(2), clf
 % plot all trials
 plot(EEG.times,squeeze(EEG.data(channel_index,:,:)),'m')
@@ -51,7 +51,7 @@ plot(EEG.times,erp,'k','linew',4)
 set(gca,'xlim',[-300 1000],'ylim',[-60 60],'ydir','reverse')
 xlabel('Time (ms)'), ylabel('\muV')
 
-focus on the ERP
+% focus on the ERP
 % now plot only the ERP
 figure(3), clf
 plot(EEG.times,erp) % Note the "3" as second input to "mean"; this takes the average of the 3rd dimension.
@@ -76,7 +76,7 @@ xticklabel=cellstr(get(gca,'xticklabel'));
 xticklabel{str2double(xticklabel)==0}='stim';
 set(gca,'xticklabel',xticklabel)
 
-Butterfly/topographical variance plots
+% Butterfly/topographical variance plots
 figure(4), clf
 
 % Butterfly plot
@@ -93,4 +93,4 @@ set(gca,'xlim',[-200 1000])
 xlabel('Time (ms)'), ylabel('var(\muV)')
 title('Topographical variance')
 
-end.
+% end.

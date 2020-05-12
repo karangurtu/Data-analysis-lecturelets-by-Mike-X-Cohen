@@ -1,7 +1,7 @@
 % eeglab's EEG structure and indexing
 % mikeXcohen@gmail.com
 
-load in EEG data
+% load in EEG data
 load sampleEEGdata.mat
 
 % FYI, this would also work:
@@ -11,7 +11,7 @@ load sampleEEGdata.mat
 % take a minute to inspect the EEG structure
 EEG
 
-finding time indices based on ms
+% finding time indices based on ms
 % The problem: We want to create a topographical plot at time=300 ms
 
 time2plot = 300; % in ms!
@@ -29,7 +29,7 @@ figure(1), clf
 topoplot(data2plot,EEG.chanlocs);
 title([ 'Topoplot from time=' num2str(EEG.times(minidx)) ' ms.' ])
 
-same concept for frequencies
+% same concept for frequencies
 frex = linspace(2,100,42);
 
 freqIwant = 23; % in hz
@@ -40,7 +40,7 @@ freqIwant = 23; % in hz
 % the function dsearchn also works
 frexidx = dsearchn(frex',freqIwant);
 
-indexing channels based on names
+% indexing channels based on names
 % the electrode label that we want to analyze
 electrodeName = 'p1'; % case doesn't matter
 
@@ -54,7 +54,7 @@ EEG.chanlocs(electrodeidx)
 figure(1), clf
 plot(EEG.times,mean( EEG.data(electrodeidx,:,:),3 ))
 
-now multiple electrodes
+% now multiple electrodes
 electrodeNames = {'p1';'fc6';'t8'};
 
 % initialize
