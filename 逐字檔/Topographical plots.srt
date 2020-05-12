@@ -1,0 +1,1968 @@
+﻿1
+00:00:00,410 --> 00:00:05,250
+when you think about the human brain
+
+2
+00:00:02,759 --> 00:00:07,129
+probably an image comes into your mind
+
+3
+00:00:05,250 --> 00:00:09,750
+that looks something like this it's a
+
+4
+00:00:07,129 --> 00:00:12,539
+continuous sheet of folded cortex
+
+5
+00:00:09,750 --> 00:00:14,519
+comprising many many no one really knows
+
+6
+00:00:12,539 --> 00:00:17,788
+how many neurons and of course many
+
+7
+00:00:14,519 --> 00:00:20,429
+other types of cells however for the
+
+8
+00:00:17,789 --> 00:00:22,830
+remainder of your career as an EEG or m
+
+9
+00:00:20,429 --> 00:00:25,219
+EG researcher you should think about the
+
+10
+00:00:22,829 --> 00:00:29,448
+brain not as a continuous sheet
+
+11
+00:00:25,219 --> 00:00:32,640
+comprising neurons but instead as a
+
+12
+00:00:29,449 --> 00:00:37,649
+surface that contains many independent
+
+13
+00:00:32,640 --> 00:00:39,210
+nodes or vertices each one functionally
+
+14
+00:00:37,649 --> 00:00:41,370
+a modulus so let's see what this looks
+
+15
+00:00:39,210 --> 00:00:44,160
+like we can zoom in a little bit here
+
+16
+00:00:41,369 --> 00:00:47,849
+into the brain and now we want to be
+
+17
+00:00:44,159 --> 00:00:50,759
+thinking about the brain as comprising
+
+18
+00:00:47,850 --> 00:00:53,730
+functionally homogeneous you might call
+
+19
+00:00:50,759 --> 00:00:56,549
+these columns or hyper columns or we can
+
+20
+00:00:53,729 --> 00:01:00,049
+just refer to them as tubes so these are
+
+21
+00:00:56,549 --> 00:01:02,399
+like tubes in the brain each one is
+
+22
+00:01:00,049 --> 00:01:05,338
+approximately 1 to 2 millimeters in
+
+23
+00:01:02,399 --> 00:01:07,560
+diameter each one contains somewhere
+
+24
+00:01:05,338 --> 00:01:11,670
+around ten thousand to a hundred
+
+25
+00:01:07,560 --> 00:01:13,859
+thousand neurons and all of the neural
+
+26
+00:01:11,670 --> 00:01:15,859
+dynamics and neuro physiological and
+
+27
+00:01:13,859 --> 00:01:19,530
+biophysical dynamics that are happening
+
+28
+00:01:15,859 --> 00:01:21,780
+inside each of these tubes is the same
+
+29
+00:01:19,530 --> 00:01:24,180
+it is functionally homogeneous what's
+
+30
+00:01:21,780 --> 00:01:27,989
+happening inside this tube of course
+
+31
+00:01:24,180 --> 00:01:30,659
+this is not entirely realistic in the
+
+32
+00:01:27,989 --> 00:01:32,489
+real brain there is also there are all
+
+33
+00:01:30,659 --> 00:01:34,409
+sorts of dynamics that are happening at
+
+34
+00:01:32,489 --> 00:01:37,259
+a spatial scale smaller than this
+
+35
+00:01:34,409 --> 00:01:40,530
+however this is approximately the
+
+36
+00:01:37,259 --> 00:01:44,670
+smallest spatial scale that can be
+
+37
+00:01:40,530 --> 00:01:47,670
+measured with EEG or M eg so this is how
+
+38
+00:01:44,670 --> 00:01:49,409
+you should try to conceptualize the the
+
+39
+00:01:47,670 --> 00:01:52,530
+brain when you are interpreting your
+
+40
+00:01:49,409 --> 00:01:54,600
+your eg Remy G data of course if you're
+
+41
+00:01:52,530 --> 00:01:56,460
+measuring L FPS where you have
+
+42
+00:01:54,599 --> 00:01:58,319
+electrodes that are implanted inside the
+
+43
+00:01:56,459 --> 00:02:00,509
+brain the spatial scale can be
+
+44
+00:01:58,319 --> 00:02:03,148
+considerably smaller than this but this
+
+45
+00:02:00,509 --> 00:02:08,180
+is about the smallest spatial scale that
+
+46
+00:02:03,149 --> 00:02:08,180
+you can resolve with EEG or any gene
+
+47
+00:02:08,419 --> 00:02:13,359
+okay and each one of these tubes is
+
+48
+00:02:11,489 --> 00:02:15,789
+producing electrical field or my bed
+
+49
+00:02:13,360 --> 00:02:19,360
+fields that you measure from outside
+
+50
+00:02:15,789 --> 00:02:21,129
+then now typically in your experiments
+
+51
+00:02:19,360 --> 00:02:24,670
+you record not only from one electrode
+
+52
+00:02:21,129 --> 00:02:27,280
+but from many electrodes this is a
+
+53
+00:02:24,669 --> 00:02:32,169
+visual representation of the locations
+
+54
+00:02:27,280 --> 00:02:37,300
+of electrodes from a 64 electrode cap
+
+55
+00:02:32,169 --> 00:02:39,609
+and hopefully going into the future 64
+
+56
+00:02:37,300 --> 00:02:42,300
+electrodes will be seen as kind of the
+
+57
+00:02:39,610 --> 00:02:45,910
+minimum number of electrodes and
+
+58
+00:02:42,300 --> 00:02:47,820
+something like 128 or more than 200
+
+59
+00:02:45,909 --> 00:02:51,099
+electrodes will become increasingly
+
+60
+00:02:47,819 --> 00:02:53,590
+widely used and and become standard
+
+61
+00:02:51,099 --> 00:02:56,379
+nonetheless so here you see 64
+
+62
+00:02:53,590 --> 00:02:58,120
+electrodes laid out on a 2 dimensional
+
+63
+00:02:56,379 --> 00:03:00,219
+representation of the head this is
+
+64
+00:02:58,120 --> 00:03:03,879
+called a topographical plot or a
+
+65
+00:03:00,219 --> 00:03:06,129
+topographical map and in case you are
+
+66
+00:03:03,879 --> 00:03:08,560
+not familiar with interpreting these
+
+67
+00:03:06,129 --> 00:03:10,239
+plots what you want to do is imagine you
+
+68
+00:03:08,560 --> 00:03:13,060
+were looking down on the top of
+
+69
+00:03:10,239 --> 00:03:14,969
+someone's head and here is the left ear
+
+70
+00:03:13,060 --> 00:03:17,920
+and the right ear and this is the nose
+
+71
+00:03:14,969 --> 00:03:20,159
+and now these are the locations of the
+
+72
+00:03:17,919 --> 00:03:23,289
+electrodes and now what we want to do is
+
+73
+00:03:20,159 --> 00:03:27,340
+try to understand how or to visualize
+
+74
+00:03:23,289 --> 00:03:31,409
+how the activity is changing over the
+
+75
+00:03:27,340 --> 00:03:31,409
+entire scalp over the entire surface
+
+76
+00:03:31,560 --> 00:03:37,299
+so of course you the data that you
+
+77
+00:03:35,259 --> 00:03:40,169
+record from any one electrode might look
+
+78
+00:03:37,299 --> 00:03:43,209
+something like this and most of the
+
+79
+00:03:40,169 --> 00:03:45,750
+tutorials and lectures from from this
+
+80
+00:03:43,209 --> 00:03:48,489
+point on will really deal with how to
+
+81
+00:03:45,750 --> 00:03:51,219
+analyze and out to extract information
+
+82
+00:03:48,489 --> 00:03:53,799
+out of the time series that you get from
+
+83
+00:03:51,219 --> 00:03:56,889
+a single electrode but in practice yeah
+
+84
+00:03:53,799 --> 00:03:59,680
+you really want to look at the change of
+
+85
+00:03:56,889 --> 00:04:02,979
+activity over space as a function of
+
+86
+00:03:59,680 --> 00:04:04,390
+space so there are a few different ways
+
+87
+00:04:02,979 --> 00:04:07,798
+of representing these spatial
+
+88
+00:04:04,389 --> 00:04:09,939
+information that you get from EEG data
+
+89
+00:04:07,799 --> 00:04:13,090
+here you see probably the most
+
+90
+00:04:09,939 --> 00:04:16,120
+conservative visual representation so
+
+91
+00:04:13,090 --> 00:04:18,970
+the activity of each electrode is mapped
+
+92
+00:04:16,120 --> 00:04:22,990
+onto a color or in this case a gray
+
+93
+00:04:18,970 --> 00:04:25,630
+intensity value so here you see let's
+
+94
+00:04:22,990 --> 00:04:26,689
+imagine that black is mapped onto lower
+
+95
+00:04:25,629 --> 00:04:28,550
+levels of active
+
+96
+00:04:26,689 --> 00:04:30,730
+in whites is mapped on to higher levels
+
+97
+00:04:28,550 --> 00:04:33,740
+of activity this is a very conservative
+
+98
+00:04:30,730 --> 00:04:35,890
+way of illustrating the spatial
+
+99
+00:04:33,740 --> 00:04:39,079
+distribution of the data because we are
+
+100
+00:04:35,889 --> 00:04:40,879
+not making any assumptions about what
+
+101
+00:04:39,079 --> 00:04:42,949
+the activity might look like between
+
+102
+00:04:40,879 --> 00:04:45,069
+these electrodes but on the other hand
+
+103
+00:04:42,949 --> 00:04:49,479
+it's also a little bit difficult to
+
+104
+00:04:45,069 --> 00:04:53,810
+interpret this plot so by far the most
+
+105
+00:04:49,480 --> 00:04:55,610
+typical way to analyze or to to
+
+106
+00:04:53,810 --> 00:04:58,629
+illustrate the spatial distribution of
+
+107
+00:04:55,610 --> 00:05:00,910
+EEG data is with these interpolated
+
+108
+00:04:58,629 --> 00:05:03,319
+two-dimensional topographical maps and
+
+109
+00:05:00,910 --> 00:05:05,090
+in a few minutes we'll switch to my lap
+
+110
+00:05:03,319 --> 00:05:08,360
+and I will show you how to make these
+
+111
+00:05:05,089 --> 00:05:11,119
+topographical maps but the idea is that
+
+112
+00:05:08,360 --> 00:05:14,389
+we don't actually record any data from
+
+113
+00:05:11,120 --> 00:05:16,670
+this point here we record this is a
+
+114
+00:05:14,389 --> 00:05:19,039
+point that's in between these electrodes
+
+115
+00:05:16,670 --> 00:05:21,980
+where we actually record data but we
+
+116
+00:05:19,040 --> 00:05:24,500
+want to use an interpolation algorithm
+
+117
+00:05:21,980 --> 00:05:26,390
+to estimate what the activity would look
+
+118
+00:05:24,500 --> 00:05:28,790
+like at this point in this point in this
+
+119
+00:05:26,389 --> 00:05:33,019
+point in this point and so forth in
+
+120
+00:05:28,790 --> 00:05:37,660
+order to produce a smoother plot which
+
+121
+00:05:33,019 --> 00:05:40,279
+is easier to interpret here you see a
+
+122
+00:05:37,660 --> 00:05:42,140
+this same activity so actually all three
+
+123
+00:05:40,279 --> 00:05:44,000
+of these plots show exactly the same
+
+124
+00:05:42,139 --> 00:05:47,269
+data just represented in different ways
+
+125
+00:05:44,000 --> 00:05:50,470
+here you see the representation on a 3d
+
+126
+00:05:47,269 --> 00:05:53,168
+rendering of a head so there's some
+
+127
+00:05:50,470 --> 00:05:55,190
+advantages and disadvantages of
+
+128
+00:05:53,168 --> 00:05:57,349
+three-dimensional topographical plotting
+
+129
+00:05:55,189 --> 00:05:59,569
+versus two-dimensional topographical
+
+130
+00:05:57,350 --> 00:06:02,300
+blooding of course the three-dimensional
+
+131
+00:05:59,569 --> 00:06:05,019
+plots look much nicer they make nicer
+
+132
+00:06:02,300 --> 00:06:09,250
+figures and they're certainly more than
+
+133
+00:06:05,019 --> 00:06:12,229
+directly interpretable in terms of the
+
+134
+00:06:09,250 --> 00:06:15,199
+anatomical distribution of the activity
+
+135
+00:06:12,230 --> 00:06:18,290
+so it's much easier to see where on the
+
+136
+00:06:15,199 --> 00:06:20,629
+head these different features are coming
+
+137
+00:06:18,290 --> 00:06:23,300
+from on the other hand of course you
+
+138
+00:06:20,629 --> 00:06:25,009
+only see half the header or even a bit
+
+139
+00:06:23,300 --> 00:06:28,340
+less than half that idea so if you
+
+140
+00:06:25,009 --> 00:06:30,680
+wanted to show what the entire spatial
+
+141
+00:06:28,339 --> 00:06:35,119
+distribution of activity looked like you
+
+142
+00:06:30,680 --> 00:06:37,189
+would need at least two different 3d
+
+143
+00:06:35,120 --> 00:06:37,579
+plots and maybe even three if you had
+
+144
+00:06:37,189 --> 00:06:39,920
+some
+
+145
+00:06:37,579 --> 00:06:41,839
+if you wanted to show the activity here
+
+146
+00:06:39,920 --> 00:06:43,759
+all the way poster and here all the way
+
+147
+00:06:41,839 --> 00:06:46,689
+anterior but you would certainly need
+
+148
+00:06:43,759 --> 00:06:48,879
+more than one to show the entire head
+
+149
+00:06:46,689 --> 00:06:51,649
+two-dimensional plots in the other end
+
+150
+00:06:48,879 --> 00:06:54,920
+have the advantage of showing pretty
+
+151
+00:06:51,649 --> 00:06:56,409
+much the entire spatial distribution
+
+152
+00:06:54,920 --> 00:06:59,110
+from the entire head on one plot
+
+153
+00:06:56,410 --> 00:07:03,950
+sometimes they get cut off this a
+
+154
+00:06:59,110 --> 00:07:06,110
+parameter for how much of these data
+
+155
+00:07:03,949 --> 00:07:08,240
+coming from behind the head you you want
+
+156
+00:07:06,110 --> 00:07:10,490
+to show here but they show pretty much
+
+157
+00:07:08,240 --> 00:07:12,470
+the entire topographical distribution
+
+158
+00:07:10,490 --> 00:07:15,379
+but there are a little bit more
+
+159
+00:07:12,470 --> 00:07:19,730
+difficult to interpret in terms of the
+
+160
+00:07:15,379 --> 00:07:25,339
+anatomical scalp localization of the
+
+161
+00:07:19,730 --> 00:07:29,150
+effects topographical maps are very
+
+162
+00:07:25,339 --> 00:07:32,659
+important they are very powerful and and
+
+163
+00:07:29,149 --> 00:07:35,329
+should be used very often in particular
+
+164
+00:07:32,660 --> 00:07:37,390
+not only when you are inspecting your
+
+165
+00:07:35,329 --> 00:07:39,469
+results and showing images of your
+
+166
+00:07:37,389 --> 00:07:42,560
+results after you've completed your
+
+167
+00:07:39,470 --> 00:07:44,510
+analyses but also during pre-processing
+
+168
+00:07:42,560 --> 00:07:48,470
+and during the cleaning and initial
+
+169
+00:07:44,509 --> 00:07:50,360
+inspection of the data topographical
+
+170
+00:07:48,470 --> 00:07:52,460
+maps are are very powerful and you can
+
+171
+00:07:50,360 --> 00:07:55,430
+extract a lot of meaningful information
+
+172
+00:07:52,459 --> 00:07:57,079
+very quickly and so here we see two
+
+173
+00:07:55,430 --> 00:07:59,810
+topographical maps this one all I'm
+
+174
+00:07:57,079 --> 00:08:02,629
+telling you is that it's a topographical
+
+175
+00:07:59,810 --> 00:08:04,160
+map of the activity at 130 milliseconds
+
+176
+00:08:02,629 --> 00:08:06,199
+I'm not telling you anything else about
+
+177
+00:08:04,160 --> 00:08:09,290
+this I'm not telling you what happened
+
+178
+00:08:06,199 --> 00:08:11,449
+at time zero but you can already come up
+
+179
+00:08:09,290 --> 00:08:14,240
+with a pretty good guess just based on
+
+180
+00:08:11,449 --> 00:08:16,339
+looking at this plot that at time zero
+
+181
+00:08:14,240 --> 00:08:19,370
+there was a visual stimulus that was
+
+182
+00:08:16,339 --> 00:08:21,379
+presented and you might also guess that
+
+183
+00:08:19,370 --> 00:08:22,730
+the stimulus was presented on the right
+
+184
+00:08:21,379 --> 00:08:25,399
+side of the screen so in the right
+
+185
+00:08:22,730 --> 00:08:27,290
+visual hemifield and in fact that is
+
+186
+00:08:25,399 --> 00:08:30,859
+what happened in this experiment there
+
+187
+00:08:27,290 --> 00:08:32,899
+was at time zero a stimulus presented on
+
+188
+00:08:30,860 --> 00:08:36,259
+the right side of the screen this is
+
+189
+00:08:32,899 --> 00:08:38,840
+very useful for example if this was the
+
+190
+00:08:36,259 --> 00:08:41,000
+first subject in your pilot experiment
+
+191
+00:08:38,840 --> 00:08:42,980
+that you were testing and let's say this
+
+192
+00:08:41,000 --> 00:08:44,419
+is supposed to be the condition where
+
+193
+00:08:42,980 --> 00:08:47,060
+there was a stimulus presented on the
+
+194
+00:08:44,419 --> 00:08:51,059
+left side of the screen so now you know
+
+195
+00:08:47,059 --> 00:08:53,069
+this should raise some alarm bells that
+
+196
+00:08:51,059 --> 00:08:56,189
+perhaps something went wrong with the
+
+197
+00:08:53,070 --> 00:09:00,870
+experiment trigger coding the the
+
+198
+00:08:56,190 --> 00:09:03,000
+labeling of the markers or something so
+
+199
+00:09:00,870 --> 00:09:06,330
+it provides a bit of a sanity check
+
+200
+00:09:03,000 --> 00:09:09,299
+looking at these topographical maps here
+
+201
+00:09:06,330 --> 00:09:11,190
+you see at 400 milliseconds now again
+
+202
+00:09:09,299 --> 00:09:12,990
+I'm not telling you what happens at 400
+
+203
+00:09:11,190 --> 00:09:15,090
+milliseconds but you can probably guess
+
+204
+00:09:12,990 --> 00:09:16,649
+by looking at the plot that it's likely
+
+205
+00:09:15,090 --> 00:09:19,290
+that there was a button press maybe
+
+206
+00:09:16,649 --> 00:09:21,480
+there was even a right hand button press
+
+207
+00:09:19,289 --> 00:09:22,980
+maybe the subject press bun with the
+
+208
+00:09:21,480 --> 00:09:24,659
+right hand at somewhere around 400
+
+209
+00:09:22,980 --> 00:09:27,420
+milliseconds and that's reflected as
+
+210
+00:09:24,659 --> 00:09:29,009
+motor activity in fact this is what
+
+211
+00:09:27,419 --> 00:09:31,439
+happened in this experiment that
+
+212
+00:09:29,009 --> 00:09:34,679
+somewhere around 400 milliseconds there
+
+213
+00:09:31,440 --> 00:09:35,430
+was a response using the right hand so
+
+214
+00:09:34,679 --> 00:09:37,289
+already
+
+215
+00:09:35,429 --> 00:09:40,139
+these topographical maps are telling you
+
+216
+00:09:37,289 --> 00:09:42,509
+a lot of very important and detailed
+
+217
+00:09:40,139 --> 00:09:44,909
+information that you can use during
+
+218
+00:09:42,509 --> 00:09:48,419
+pre-processing to check and make sure
+
+219
+00:09:44,909 --> 00:09:50,639
+that the data are are good and clean and
+
+220
+00:09:48,419 --> 00:09:54,979
+consistent with what you should expect
+
+221
+00:09:50,639 --> 00:09:54,980
+based on the design of your experiment
+
+222
+00:09:55,279 --> 00:10:01,110
+topographical maps are also very useful
+
+223
+00:09:57,090 --> 00:10:04,070
+for identifying potentially bad or
+
+224
+00:10:01,110 --> 00:10:06,600
+artifact ridden electrodes here you see
+
+225
+00:10:04,070 --> 00:10:09,900
+several a series of topographical maps
+
+226
+00:10:06,600 --> 00:10:12,029
+the numbers here correspond to time in
+
+227
+00:10:09,899 --> 00:10:14,850
+milliseconds so this is a quarter second
+
+228
+00:10:12,029 --> 00:10:16,379
+after stimulus onset and it's very clear
+
+229
+00:10:14,850 --> 00:10:18,120
+it's very obvious that something is
+
+230
+00:10:16,379 --> 00:10:20,340
+wrong with this electrode you can see it
+
+231
+00:10:18,120 --> 00:10:22,289
+has very large values and they're very
+
+232
+00:10:20,340 --> 00:10:24,540
+different from the neighboring electrode
+
+233
+00:10:22,289 --> 00:10:26,819
+so we know immediately by looking at
+
+234
+00:10:24,539 --> 00:10:29,309
+these topographical maps that something
+
+235
+00:10:26,820 --> 00:10:32,310
+was wrong with this electrode so we need
+
+236
+00:10:29,309 --> 00:10:34,409
+to resolve this issue before going any
+
+237
+00:10:32,309 --> 00:10:41,939
+further with these with the data
+
+238
+00:10:34,409 --> 00:10:46,319
+analyses I would like to clarify two
+
+239
+00:10:41,940 --> 00:10:49,560
+terms that are kind of related and and a
+
+240
+00:10:46,320 --> 00:10:51,390
+little bit easy to confuse but they are
+
+241
+00:10:49,559 --> 00:10:53,609
+actually there there is an important
+
+242
+00:10:51,389 --> 00:10:55,949
+difference between them and the terms
+
+243
+00:10:53,610 --> 00:10:57,870
+are topographical localization versus
+
+244
+00:10:55,950 --> 00:11:00,590
+brain localization and also sometimes
+
+245
+00:10:57,870 --> 00:11:02,820
+called source localization the
+
+246
+00:11:00,590 --> 00:11:04,030
+difference between these two terms is
+
+247
+00:11:02,820 --> 00:11:06,879
+illustrated by these two
+
+248
+00:11:04,029 --> 00:11:09,730
+pictures here I apologize for the really
+
+249
+00:11:06,879 --> 00:11:11,620
+ugly pixelated nature of this
+
+250
+00:11:09,730 --> 00:11:14,110
+topographical map but it was it was very
+
+251
+00:11:11,620 --> 00:11:18,009
+small on the figure and I had to blow it
+
+252
+00:11:14,110 --> 00:11:20,919
+up anyway topographical localization is
+
+253
+00:11:18,009 --> 00:11:24,159
+really just an observation of where your
+
+254
+00:11:20,919 --> 00:11:27,009
+effect is maximal on the scalp so here
+
+255
+00:11:24,159 --> 00:11:29,049
+we see the effect whatever this is the
+
+256
+00:11:27,009 --> 00:11:33,100
+statistical map this condition contrast
+
+257
+00:11:29,049 --> 00:11:36,189
+is larger at this electrode than it is
+
+258
+00:11:33,100 --> 00:11:39,100
+at any other electrode on the scalp so
+
+259
+00:11:36,190 --> 00:11:42,520
+we can localize the effect to this
+
+260
+00:11:39,100 --> 00:11:45,129
+particular electrode as opposed to any
+
+261
+00:11:42,519 --> 00:11:48,009
+other electrode with topographical
+
+262
+00:11:45,129 --> 00:11:50,100
+localization we are not making any
+
+263
+00:11:48,009 --> 00:11:54,189
+assumptions we don't need any special
+
+264
+00:11:50,100 --> 00:11:56,440
+analyses we don't need any specific sets
+
+265
+00:11:54,190 --> 00:12:00,040
+of parameters we are really just
+
+266
+00:11:56,440 --> 00:12:02,580
+observing and commenting on where an
+
+267
+00:12:00,039 --> 00:12:07,480
+effect is empirically observed to be
+
+268
+00:12:02,580 --> 00:12:12,340
+localized to on the on the scalp that's
+
+269
+00:12:07,480 --> 00:12:15,550
+a different query know where in the
+
+270
+00:12:12,340 --> 00:12:17,680
+brain this dynamic came from where where
+
+271
+00:12:15,549 --> 00:12:20,109
+in the brain the source is all we know
+
+272
+00:12:17,679 --> 00:12:22,659
+is that it is maximal at this particular
+
+273
+00:12:20,110 --> 00:12:26,409
+electrode brain localization of course
+
+274
+00:12:22,659 --> 00:12:28,569
+we want to make an inference about where
+
+275
+00:12:26,409 --> 00:12:31,419
+in the brain this activity may have come
+
+276
+00:12:28,570 --> 00:12:33,640
+from in brain localization or source
+
+277
+00:12:31,419 --> 00:12:36,399
+localization does require specific
+
+278
+00:12:33,639 --> 00:12:39,460
+algorithms like dipole fitting or
+
+279
+00:12:36,399 --> 00:12:42,100
+beamforming or any other source
+
+280
+00:12:39,460 --> 00:12:44,650
+localization algorithm source
+
+281
+00:12:42,100 --> 00:12:47,680
+localization requires some assumptions
+
+282
+00:12:44,649 --> 00:12:50,019
+it requires several parameters so and
+
+283
+00:12:47,679 --> 00:12:51,819
+the inference is is different here we
+
+284
+00:12:50,019 --> 00:12:55,179
+are trying to make an inference about
+
+285
+00:12:51,820 --> 00:12:57,370
+where in the brain did the activity come
+
+286
+00:12:55,179 --> 00:12:59,529
+from that produced the observed scalp
+
+287
+00:12:57,370 --> 00:13:02,200
+topography and here with topographical
+
+288
+00:12:59,529 --> 00:13:04,959
+localization we are really just asking
+
+289
+00:13:02,200 --> 00:13:07,390
+the very simple and and and definitely
+
+290
+00:13:04,960 --> 00:13:12,370
+answerable question of which electrode
+
+291
+00:13:07,389 --> 00:13:15,789
+shows the effect the biggest okay so now
+
+292
+00:13:12,370 --> 00:13:19,509
+I'd like to switch to map
+
+293
+00:13:15,789 --> 00:13:23,889
+here if you download these sample Ichi
+
+294
+00:13:19,509 --> 00:13:27,519
+data and the code that that is presented
+
+295
+00:13:23,889 --> 00:13:29,649
+along with this video you can don't
+
+296
+00:13:27,519 --> 00:13:31,840
+follow along with this code so what
+
+297
+00:13:29,649 --> 00:13:33,600
+we're going to do here is or what I'm
+
+298
+00:13:31,840 --> 00:13:36,009
+going to do is introduce you to
+
+299
+00:13:33,600 --> 00:13:39,759
+topographical plotting basically I'm
+
+300
+00:13:36,009 --> 00:13:42,269
+going to let's see show you how these
+
+301
+00:13:39,759 --> 00:13:48,370
+kinds of topographical plots are
+
+302
+00:13:42,269 --> 00:13:51,329
+produced in MATLAB the first step that
+
+303
+00:13:48,370 --> 00:13:53,649
+we're going to do is transform the
+
+304
+00:13:51,330 --> 00:13:57,129
+Cartesian coordinates to polar
+
+305
+00:13:53,649 --> 00:14:00,909
+coordinates which is important for the
+
+306
+00:13:57,129 --> 00:14:06,009
+next steps once we have that we can plot
+
+307
+00:14:00,909 --> 00:14:07,839
+the XY locations of the electrodes and
+
+308
+00:14:06,009 --> 00:14:09,789
+here I'm using a function called scatter
+
+309
+00:14:07,840 --> 00:14:13,090
+which is very similar to the plot
+
+310
+00:14:09,789 --> 00:14:14,949
+function in fact you could produce
+
+311
+00:14:13,090 --> 00:14:17,019
+exactly the same plot with the plot
+
+312
+00:14:14,950 --> 00:14:20,830
+function is just sort of shown here just
+
+313
+00:14:17,019 --> 00:14:23,169
+for your personal edification so this
+
+314
+00:14:20,830 --> 00:14:25,210
+should look familiar this is just the
+
+315
+00:14:23,169 --> 00:14:27,250
+layout of all the electrodes this is
+
+316
+00:14:25,210 --> 00:14:30,700
+very similar to what I showed in the
+
+317
+00:14:27,250 --> 00:14:34,240
+slides except that in the slides that
+
+318
+00:14:30,700 --> 00:14:36,879
+was produced from an EEG lab toolbox
+
+319
+00:14:34,240 --> 00:14:39,250
+function that basically just plots these
+
+320
+00:14:36,879 --> 00:14:41,439
+electrodes plus adds some circles for
+
+321
+00:14:39,250 --> 00:14:43,240
+the head and the ears and the nose and
+
+322
+00:14:41,440 --> 00:14:46,330
+so on but this is just the electrode
+
+323
+00:14:43,240 --> 00:14:52,419
+locations what we are going to do next
+
+324
+00:14:46,330 --> 00:14:57,070
+is define points on this XY plane where
+
+325
+00:14:52,419 --> 00:15:00,459
+we want to interpolate the data and so
+
+326
+00:14:57,070 --> 00:15:02,440
+you I encourage you to play around with
+
+327
+00:15:00,460 --> 00:15:04,780
+this and change the interpolation detail
+
+328
+00:15:02,440 --> 00:15:07,600
+here I'm just using arbitrarily I just
+
+329
+00:15:04,779 --> 00:15:09,659
+arbitrarily picked a value of 100 as the
+
+330
+00:15:07,600 --> 00:15:14,019
+level of detail so we are going to
+
+331
+00:15:09,659 --> 00:15:16,899
+interpolate 100 points between the
+
+332
+00:15:14,019 --> 00:15:20,519
+minimum and the maximum of these XY
+
+333
+00:15:16,899 --> 00:15:20,519
+plane coordinates
+
+334
+00:15:22,899 --> 00:15:28,169
+those so then this function mesh grid
+
+335
+00:15:25,629 --> 00:15:29,769
+just converts them from a
+
+336
+00:15:28,169 --> 00:15:31,719
+one-dimensional array to a
+
+337
+00:15:29,769 --> 00:15:35,198
+two-dimensional array which is important
+
+338
+00:15:31,720 --> 00:15:37,449
+for the topographical plotting so here
+
+339
+00:15:35,198 --> 00:15:40,088
+all the black dots this is where we are
+
+340
+00:15:37,448 --> 00:15:43,208
+going to estimate activity so the red
+
+341
+00:15:40,089 --> 00:15:45,639
+dots are where we actually measured data
+
+342
+00:15:43,208 --> 00:15:47,649
+these black dots we don't actually have
+
+343
+00:15:45,639 --> 00:15:49,899
+data so in some sense or in a very
+
+344
+00:15:47,649 --> 00:15:52,509
+strict sense we don't actually know what
+
+345
+00:15:49,899 --> 00:15:55,389
+was happening on the scalp at this
+
+346
+00:15:52,509 --> 00:15:57,399
+location however we are going to use a
+
+347
+00:15:55,389 --> 00:16:01,028
+weighted combination of all these other
+
+348
+00:15:57,399 --> 00:16:03,129
+electrodes to estimate what the activity
+
+349
+00:16:01,028 --> 00:16:06,129
+would look like at this point here and
+
+350
+00:16:03,129 --> 00:16:08,740
+that is going to allow us to create a
+
+351
+00:16:06,129 --> 00:16:12,869
+topographical map with more detail than
+
+352
+00:16:08,740 --> 00:16:15,428
+just these individuals 64 data points so
+
+353
+00:16:12,869 --> 00:16:17,528
+here you can see I used another plot
+
+354
+00:16:15,428 --> 00:16:19,778
+this is also it could have been done
+
+355
+00:16:17,528 --> 00:16:22,178
+using the normal plot function this is
+
+356
+00:16:19,778 --> 00:16:26,039
+just to introduce you to some other of
+
+357
+00:16:22,178 --> 00:16:29,078
+MATLAB functions so plot 3 we plot the
+
+358
+00:16:26,039 --> 00:16:31,719
+the x and y coordinates and here are
+
+359
+00:16:29,078 --> 00:16:34,239
+plotting these Z coordinates as minus 1
+
+360
+00:16:31,720 --> 00:16:38,850
+which just plots the black dots behind
+
+361
+00:16:34,240 --> 00:16:41,259
+the red circles so if you just use a
+
+362
+00:16:38,850 --> 00:16:43,899
+plot2d function then you would just see
+
+363
+00:16:41,259 --> 00:16:46,298
+that the black dots would be on top of
+
+364
+00:16:43,899 --> 00:16:49,539
+the red circles which I just think looks
+
+365
+00:16:46,298 --> 00:16:50,948
+a little bit less nice so you can see it
+
+366
+00:16:49,539 --> 00:16:58,498
+would look like this it's basically the
+
+367
+00:16:50,948 --> 00:17:02,798
+same ok now what we are going to do is
+
+368
+00:16:58,499 --> 00:17:04,838
+compute the average activity at a an
+
+369
+00:17:02,798 --> 00:17:07,028
+arbitrary time point so I picked 100
+
+370
+00:17:04,838 --> 00:17:10,389
+milliseconds here we learned in a
+
+371
+00:17:07,028 --> 00:17:12,398
+previous video that this is the function
+
+372
+00:17:10,390 --> 00:17:15,009
+or one method that will allow us to
+
+373
+00:17:12,398 --> 00:17:17,558
+convert between the time point in
+
+374
+00:17:15,009 --> 00:17:20,699
+milliseconds that we want and the time
+
+375
+00:17:17,558 --> 00:17:24,148
+index so here we can we know that the
+
+376
+00:17:20,699 --> 00:17:28,390
+283rd time point in the EEG data
+
+377
+00:17:24,148 --> 00:17:32,048
+corresponds to a hundred milliseconds ok
+
+378
+00:17:28,390 --> 00:17:35,080
+and then we want to extract the average
+
+379
+00:17:32,048 --> 00:17:37,599
+data from this time point so we take
+
+380
+00:17:35,079 --> 00:17:40,599
+see data from all channels from this
+
+381
+00:17:37,599 --> 00:17:42,579
+time point from all trials and then we
+
+382
+00:17:40,599 --> 00:17:45,250
+take the mean over the third dimension
+
+383
+00:17:42,579 --> 00:17:47,668
+so that gives us the trial average this
+
+384
+00:17:45,250 --> 00:17:50,490
+particular interpolation function
+
+385
+00:17:47,669 --> 00:17:53,200
+requires that the input data the
+
+386
+00:17:50,490 --> 00:17:56,528
+double-precision or floating-point
+
+387
+00:17:53,200 --> 00:17:58,330
+precision and so the function double
+
+388
+00:17:56,528 --> 00:18:00,880
+here is just to make sure that that
+
+389
+00:17:58,329 --> 00:18:06,189
+whatever comes out of here will not
+
+390
+00:18:00,880 --> 00:18:09,190
+produce an air during interpolation okay
+
+391
+00:18:06,190 --> 00:18:14,200
+and so this try scattered interrupt this
+
+392
+00:18:09,190 --> 00:18:15,850
+is a MATLAB function that it provides us
+
+393
+00:18:14,200 --> 00:18:20,429
+with the function to compute
+
+394
+00:18:15,849 --> 00:18:22,928
+interpolation so now we're going to
+
+395
+00:18:20,429 --> 00:18:27,548
+interpolate over these grid points all
+
+396
+00:18:22,929 --> 00:18:32,500
+these black dots here to get a 100 by
+
+397
+00:18:27,548 --> 00:18:35,349
+100 map of interpolated points and the
+
+398
+00:18:32,500 --> 00:18:37,750
+100 by 100 comes from this parameter
+
+399
+00:18:35,349 --> 00:18:42,069
+here so you can change this you can try
+
+400
+00:18:37,750 --> 00:18:45,009
+saving it to a thousand or 10 and see
+
+401
+00:18:42,069 --> 00:18:47,769
+what the difference is okay so now that
+
+402
+00:18:45,009 --> 00:18:51,638
+we have our interpolated data we are
+
+403
+00:18:47,769 --> 00:18:53,710
+going to plot this interpolated data and
+
+404
+00:18:51,638 --> 00:18:58,869
+I'm just plotting it in a few different
+
+405
+00:18:53,710 --> 00:19:01,240
+ways just for comparison here I'm
+
+406
+00:18:58,869 --> 00:19:04,028
+plotting using the MATLAB function
+
+407
+00:19:01,240 --> 00:19:07,329
+contour F the F stands for filled here
+
+408
+00:19:04,028 --> 00:19:09,970
+using surf which stands for surface and
+
+409
+00:19:07,329 --> 00:19:12,849
+you can see that these appear to look
+
+410
+00:19:09,970 --> 00:19:16,048
+identical the only difference is with a
+
+411
+00:19:12,849 --> 00:19:19,869
+surface plot we are actually
+
+412
+00:19:16,048 --> 00:19:22,089
+representing this piece of data as a
+
+413
+00:19:19,869 --> 00:19:24,459
+surface as a landscape so you can see
+
+414
+00:19:22,089 --> 00:19:29,138
+that these edge values the microvolt
+
+415
+00:19:24,460 --> 00:19:33,069
+values are mapped here on to color what
+
+416
+00:19:29,138 --> 00:19:36,808
+I like about this representation is that
+
+417
+00:19:33,069 --> 00:19:39,398
+it helps you understand that these
+
+418
+00:19:36,808 --> 00:19:41,740
+features over multiple dimensions these
+
+419
+00:19:39,398 --> 00:19:43,439
+multi-dimensional feature spaces can be
+
+420
+00:19:41,740 --> 00:19:47,579
+conceptualized as
+
+421
+00:19:43,440 --> 00:19:50,340
+as landscapes as as a terrain so to
+
+422
+00:19:47,579 --> 00:19:52,798
+speak the contoured function that
+
+423
+00:19:50,339 --> 00:19:54,569
+actually is is just a flat function so
+
+424
+00:19:52,798 --> 00:19:58,888
+from when you're looking down of course
+
+425
+00:19:54,569 --> 00:20:00,990
+it's the same as a surface image using
+
+426
+00:19:58,888 --> 00:20:04,548
+the function image or image SC which
+
+427
+00:20:00,990 --> 00:20:07,159
+means it just does some color scaling
+
+428
+00:20:04,548 --> 00:20:10,769
+you can see two differences between
+
+429
+00:20:07,159 --> 00:20:13,159
+image and contour the first is that the
+
+430
+00:20:10,769 --> 00:20:15,750
+image function appears to be a bit more
+
+431
+00:20:13,159 --> 00:20:18,929
+pixelated whereas contour appears to be
+
+432
+00:20:15,750 --> 00:20:20,970
+a bit smoother and the second and more
+
+433
+00:20:18,929 --> 00:20:24,090
+important difference is that the
+
+434
+00:20:20,970 --> 00:20:27,329
+direction of the y axis is flipped so
+
+435
+00:20:24,089 --> 00:20:29,250
+here the red this red feature is on the
+
+436
+00:20:27,329 --> 00:20:31,408
+bottom and here it's on the top you can
+
+437
+00:20:29,250 --> 00:20:33,210
+see when you look at the y axis that it
+
+438
+00:20:31,409 --> 00:20:37,759
+really is the same data this is just
+
+439
+00:20:33,210 --> 00:20:41,579
+flipped image by default shows in X
+
+440
+00:20:37,759 --> 00:20:44,429
+sorry i J coordinates instead of X Y
+
+441
+00:20:41,579 --> 00:20:48,210
+coordinates so it just has these smaller
+
+442
+00:20:44,429 --> 00:20:51,090
+numbers at the top it doesn't really
+
+443
+00:20:48,210 --> 00:20:53,220
+matter whether use image or contour but
+
+444
+00:20:51,089 --> 00:20:55,798
+it is important always to remember that
+
+445
+00:20:53,220 --> 00:20:58,288
+image is going to flip the y axis
+
+446
+00:20:55,798 --> 00:20:59,970
+relative to contour this is very
+
+447
+00:20:58,288 --> 00:21:02,398
+important when plotting time frequency
+
+448
+00:20:59,970 --> 00:21:04,379
+plots because you want to make sure that
+
+449
+00:21:02,398 --> 00:21:06,239
+you are labeling the y axis correctly
+
+450
+00:21:04,378 --> 00:21:08,219
+right you don't want to have the lower
+
+451
+00:21:06,240 --> 00:21:11,190
+plot the lower frequencies on the bottom
+
+452
+00:21:08,220 --> 00:21:14,548
+but you mistakenly think that the lower
+
+453
+00:21:11,190 --> 00:21:16,110
+frequencies on top or vice-versa it's
+
+454
+00:21:14,548 --> 00:21:17,609
+easy to get confused so you just always
+
+455
+00:21:16,109 --> 00:21:23,308
+have to make sure that you're careful
+
+456
+00:21:17,609 --> 00:21:27,119
+with the image se in this figure you see
+
+457
+00:21:23,308 --> 00:21:30,599
+the interpolated data using the EEG lab
+
+458
+00:21:27,119 --> 00:21:35,189
+toolbox function called topo plot so you
+
+459
+00:21:30,599 --> 00:21:37,678
+can see these it shows the same data but
+
+460
+00:21:35,190 --> 00:21:40,679
+of course they've added all these other
+
+461
+00:21:37,679 --> 00:21:42,960
+nice features like the the circle for
+
+462
+00:21:40,679 --> 00:21:45,210
+the head and locations of the ears and
+
+463
+00:21:42,960 --> 00:21:48,179
+the nose and things another difference
+
+464
+00:21:45,210 --> 00:21:50,009
+you can see is that eg labtop oplot
+
+465
+00:21:48,179 --> 00:21:52,528
+function is using a different
+
+466
+00:21:50,009 --> 00:21:54,750
+interpolation function they use one
+
+467
+00:21:52,528 --> 00:21:55,289
+called grid data here i used one called
+
+468
+00:21:54,750 --> 00:21:59,009
+trice
+
+469
+00:21:55,289 --> 00:22:00,659
+interpret the difference is that this
+
+470
+00:21:59,009 --> 00:22:03,259
+function try scattered interval only
+
+471
+00:22:00,660 --> 00:22:05,790
+does interpolation it doesn't do
+
+472
+00:22:03,259 --> 00:22:08,210
+extrapolation and what that means is
+
+473
+00:22:05,789 --> 00:22:13,109
+that here is the boundary where we
+
+474
+00:22:08,210 --> 00:22:15,299
+recorded our data and anything within
+
+475
+00:22:13,109 --> 00:22:17,069
+this boundary would be interpolation
+
+476
+00:22:15,299 --> 00:22:19,200
+anything outside this boundary is
+
+477
+00:22:17,069 --> 00:22:20,819
+actually we it's not possible to
+
+478
+00:22:19,200 --> 00:22:24,150
+interpolate because there's nothing to
+
+479
+00:22:20,819 --> 00:22:27,109
+interpolate to so instead estimating a
+
+480
+00:22:24,150 --> 00:22:29,820
+point out here would be extrapolation
+
+481
+00:22:27,109 --> 00:22:32,009
+and so you can see that these values are
+
+482
+00:22:29,819 --> 00:22:33,480
+all ni n so they just don't exist
+
+483
+00:22:32,009 --> 00:22:39,240
+because these would be extrapolated
+
+484
+00:22:33,480 --> 00:22:41,190
+points with this grid data function it's
+
+485
+00:22:39,240 --> 00:22:45,120
+doing both interpolation and
+
+486
+00:22:41,190 --> 00:22:48,660
+extrapolation so it's it's also just
+
+487
+00:22:45,119 --> 00:22:50,969
+another difference to keep in mind so I
+
+488
+00:22:48,660 --> 00:22:53,850
+hope that helps you understand and be
+
+489
+00:22:50,970 --> 00:22:56,240
+able to interpret where topographical
+
+490
+00:22:53,849 --> 00:22:59,909
+maps come from and how data can be
+
+491
+00:22:56,240 --> 00:23:02,269
+represented from multiple channels over
+
+492
+00:22:59,910 --> 00:23:02,269
+space
+
