@@ -1,12 +1,10 @@
 % topographical maps
 % mikeXcohen@gmail.com
 
-%% load in EEG data
-
+%load in EEG data
 load sampleEEGdata.mat
 
-%% introduction to topographical plotting
-
+%introduction to topographical plotting
 % get cartesian coordinates
 [elocsX,elocsY] = pol2cart(pi/180*[EEG.chanlocs.theta],[EEG.chanlocs.radius]);
 
@@ -30,8 +28,7 @@ interpY = linspace(min(elocsY),max(elocsY),interp_detail);
 hold on
 plot3(gridY(:),gridX(:),-ones(1,interp_detail^2),'k.')
 
-%% extract data and interpolate to 2D grid
-
+%extract data and interpolate to 2D grid
 timepoint2plot = 100; % in ms
 
 % convert time point from ms to index
@@ -42,10 +39,10 @@ dat = double( mean(EEG.data(:,timepointidx,:),3) );
 
 % now interpolate the data on a 2D grid
 interpFunction = TriScatteredInterp(elocsY',elocsX',dat);
+%interpFunction = scatteredInterpolant(elocsY',elocsX',dat);
 topodata = interpFunction(gridX,gridY);
 
-%% plot results
-
+%plot results
 figure(2), clf
 
 % contourf
@@ -76,11 +73,9 @@ subplot(224)
 topoplot(dat,EEG.chanlocs); % eeglab's topoplot function
 title('Interpolated data using eeglab ''topoplot''')
 
-
-%% useful bit of code to see channel locations
-
+%useful bit of code to see channel locations
 figure
 topoplot([],EEG.chanlocs,'electrodes','ptslabels');
 % hint: click on an electrode to see its corresponding index (number)
 
-%% end.
+%end.
