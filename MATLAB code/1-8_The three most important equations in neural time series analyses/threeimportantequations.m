@@ -40,7 +40,8 @@ k = pi/4;
 euler = m*exp(1i*k);
 
 subplot(3,3,8)
-h = polar([0 angle(euler)],[0 abs(euler)],'r-o');
+%h= polar([0 angle(euler)],[0 abs(euler)],'r-o');
+h= polarplot([0 angle(euler)],[0 abs(euler)],'r-o');
 set(h,'linew',4)
 title('Euler''s formula')
 
