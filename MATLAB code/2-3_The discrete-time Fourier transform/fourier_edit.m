@@ -50,7 +50,7 @@ for fi=1:N
     fourierSine = exp( -1i*2*pi*(fi-1).*fourierTime );
     
     % compute dot product as sum of point-wise elements
-    fourierCoefs(fi) = 
+    fourierCoefs(fi) = sum(fourierSine .* signal);
     
     % note: this can also be expressed as a vector-vector product
     % fourier(fi) = fourierSine*signal';
